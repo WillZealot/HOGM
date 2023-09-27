@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {FaBars, FaTimes,} from "react-icons/fa";
-import Logo from "../hogassets/logo.png";
+import Logo from "../hogassets/logo2.png";
 import { Link } from 'react-scroll';
 
 const Nav = () => {
@@ -9,7 +9,7 @@ const Nav = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#001C55] text-slate-100'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#24221F] text-slate-100'>
         <div>
             <img src={Logo} alt='logopic' style={{width:'80px'}}></img>
         </div>
