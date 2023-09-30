@@ -5,8 +5,15 @@ import { Link } from 'react-scroll';
 import backphoto from '../hogassets/75DB4336-B8A5-4CEA-A492-A2CC793B1DF9.jpeg';
 
 const Home = () => {
+  const backgroundStyle = {
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backphoto})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  };
+
   return (
-    <div name='home' className="w-full h-screen bg-cover bg-center" style={{ backgroundImage: `url(${backphoto})` }}>
+    <div name='home' className="w-full h-screen" style={backgroundStyle}>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
 
