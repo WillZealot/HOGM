@@ -27,7 +27,7 @@ const Nav = () => {
   return (
 <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-slate-100' style={backgroundFirstStyle}>
         <div>
-            <h1 className='text-3xl flex'>
+            <h1 className='text-3xl font-semibold flex'>
                 <GiKey></GiKey> Hope Of Glory
             </h1>
         </div>
