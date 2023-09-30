@@ -25,10 +25,10 @@ const Nav = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-<div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-slate-100' style={backgroundFirstStyle}>
+<div className='fixed z-10 w-full h-[80px] flex justify-between items-center px-4 text-slate-100' style={backgroundFirstStyle}>
         <div>
             <h1 className='text-3xl font-semibold flex'>
-                <GiKey></GiKey> Hope Of Glory
+                <GiKey></GiKey>
             </h1>
         </div>
 
@@ -69,27 +69,27 @@ const Nav = () => {
         {/* Mobile Menu */}
         <ul className={!nav ? 'hidden': 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center'} style={backgroundStyle}>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="home" spy={true} smooth={true} duration={500} >
+                <Link onClick={handleClick} to="Home" spy={true} smooth={true} duration={500} >
                     Home
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="about" spy={true} smooth={true} duration={500} >
+                <Link onClick={handleClick} to="About" spy={true} smooth={true} duration={500} >
                     About
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="events" spy={true} smooth={true} duration={500} >
+                <Link onClick={handleClick} to="Events" spy={true} smooth={true} duration={500} >
                     Events
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="contact" spy={true} smooth={true} duration={500} >
+                <Link onClick={handleClick} to="Contact" spy={true} smooth={true} duration={500} >
                     Contact
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="give" spy={true} smooth={true} duration={500} >
+                <Link onClick={handleClick} to="Give" spy={true} smooth={true} duration={500} >
                     Give
                 </Link>
             </li>

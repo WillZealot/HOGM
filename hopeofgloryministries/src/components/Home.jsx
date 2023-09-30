@@ -13,7 +13,7 @@ const Home = () => {
   };
 
   return (
-    <div name='home' className="w-full h-screen" style={backgroundStyle}>
+    <div name='Home' className="w-full h-screen" style={backgroundStyle}>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
 
