@@ -3,7 +3,7 @@ import { FaPaypal } from 'react-icons/fa';
 import { TbBrandCashapp , TbCreditCard } from 'react-icons/tb';
 import { SiZelle } from 'react-icons/si';
 import dimaNadia from '../hogassets/22612176-1BAE-44D8-B2A9-AFA96ED77166.jpeg';
-import ChangingWord from '../components/ChangingWord';
+import ChangingWord from './ChangingWord';
 
 const Give = () => {
   const backgroundStyle = {
