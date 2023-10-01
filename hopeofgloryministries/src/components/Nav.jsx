@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
 import { GiKey } from "react-icons/gi"
 import { Link } from 'react-scroll';
-import Stars from "../hogassets/stars.jpg"
+import Stars from "../hogassets/b06b82c89a7388382f9f2d4304ca0e72.png"
 
 const Nav = () => {
     const backgroundStyle = {
