@@ -38,12 +38,13 @@ const Give = () => {
                 <a href="https://www.paypal.com/donate?hosted_button_id=YDZPDFZ8XYTCW"><FaPaypal className="text-4xl text-blue-700 hover:opacity-70 cursor-pointer" /></a>
                   <span className='font-semibold'>PayPal</span>
                 </div>
-                <form action="/create-checkout-session" method="POST">
+                
                 <div className="flex items-center pb-1 space-x-4">
+                <form action="http://localhost:3001/" method="POST">
                   <button type="submit"><TbCreditCard className="text-4xl text-gray hover:opacity-70 cursor-pointer" /></button>
+                </form>
                   <span className='font-semibold'>Card</span>
                 </div>
-                </form>
               </div>
             </div>
           </div>

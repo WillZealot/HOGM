@@ -3,10 +3,13 @@
 const express = require('express');
 const app = express();
 require('dotenv').config();
-//const Key = process.env.YOUR_SECRET_KEY;
-const stripe = require('stripe')('sk_test_51NwBPtCA50yX0L1LVETwCLMxfqhgbsyotBefX7BK6uybNYbTytMFgAhCDbOcRU462VfasKaGZ8kKs0nO3LwpbAP100OV8nlZma')
+const cors = require('cors'); // Import the cors package
+const Key = process.env.YOUR_SECRET_KEY;
+const stripe = require('stripe')(Key);
 
-app.post('/create-checkout-session', async (req, res) => {
+app.use(cors());
+
+app.post('/', async (req, res) => {
   const session = await stripe.checkout.sessions.create({
     line_items: [
       {
