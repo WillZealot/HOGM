@@ -7,7 +7,7 @@ function App() {
     <div>
       <Nav/>
       <Home/>
-      <Give/>
+    <Give/>
     </div>
   );
 }
