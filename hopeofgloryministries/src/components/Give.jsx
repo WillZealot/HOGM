@@ -40,7 +40,7 @@ const Give = () => {
                 </div>
                 
                 <div className="flex items-center pb-1 space-x-4">
-                <form action="/" method="POST">
+                <form action="https://hopeofgloryministries.netlify.app/" method="POST">
                   <button type="submit"><TbCreditCard className="text-4xl text-gray hover:opacity-70 cursor-pointer" /></button>
                 </form>
                   <span className='font-semibold'>Card</span>
