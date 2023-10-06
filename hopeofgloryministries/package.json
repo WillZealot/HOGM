@@ -2,7 +2,7 @@
   "name": "hopeofgloryministries",
   "version": "0.1.0",
   "private": true,
-  "engine": {
+  "engines": {
     "node": "v18.17.1"
   },
   "dependencies": {
