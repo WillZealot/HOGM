@@ -11,7 +11,7 @@ const port = process.env.PORT||3001;
 
 app.use(cors());
 
-app.post('/create-checkout-session', async (req, res) => {
+app.post('/', async (req, res) => {
   const session = await stripe.checkout.sessions.create({
     line_items: [
       {
