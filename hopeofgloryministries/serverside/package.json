@@ -4,7 +4,7 @@
     "description": "",
     "main": "redirectPay.js",
     "scripts": {
-        "start": "node redirectPay.js",
+        "start": "react-scripts start",
         "watch": "nodemon",
         "seed": "node seeders/seed.js"
     },

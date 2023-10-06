@@ -7,9 +7,11 @@ const cors = require('cors'); // Import the cors package
 const Key = process.env.YOUR_SECRET_KEY;
 const stripe = require('stripe')(Key);
 
+const port = process.env.PORT||3001;
+
 app.use(cors());
 
-app.post('/', async (req, res) => {
+app.post('/create-checkout-session', async (req, res) => {
   const session = await stripe.checkout.sessions.create({
     line_items: [
       {
@@ -31,4 +33,4 @@ app.post('/', async (req, res) => {
   res.redirect(303, session.url);
 });
 
-app.listen(3001, () => console.log(`Listening on port ${3001}!`));
+app.listen(port, () => console.log(`Listening on port ${port}!`));
