@@ -29,7 +29,7 @@ const Home = () => {
             <br></br>
             <div className="flex justify-end"> {/* Use flex justify-end to push the button to the right */}
               <button className='text-black group border-2 px-6 py-3 my-2 flex items-center justify-center hover:bg-[#ccd6f6] hover:border-[#ccd6f6] bg-white bg-opacity-80 rounded-lg'>
-                <Link to="work" spy={true} smooth={true} duration={500}>
+                <Link to="About" spy={true} smooth={true} duration={500}>
                   Read My Testimony
                 </Link>
                 <span className='group-hover:rotate-90 duration-300'>
