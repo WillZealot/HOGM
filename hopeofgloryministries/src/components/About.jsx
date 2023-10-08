@@ -22,15 +22,18 @@ const About = () => {
               From Paralysis to Evangelism
             </p>
             <p className="text-white text-right font-bold py-4 max-w-[700px] ">
-              Dear Friends, I want to share a powerful journey with you. As a
-              child, my face was paralyzed, and doctors couldn't help. But an
-              elderly lady from our small Slavic house church said she saw Jesus
-              touch my face. The next day, my face was healed, a true miracle.
-              This experience led me to dedicate my life to God. I started "Hope
-              of Glory Ministries," sharing hope and faith in Jesus. My story
-              shows that if God can do this for me, He can do it for you too.
-              Never lose faith; with God, all is possible. Blessings, Dimitry
-              Tikhonenko
+              Dmitriy serves as the head of Hope of Glory Ministries, As a
+              child, he was seen by multiple doctors who said they had no answer
+              for his paralyzed face, he experienced supernatural healing of
+              facial paralysis after he received prayer from spirit filled
+              Christians. As a young adult, he was saved from a secular life of
+              false spirituality, hopelessness, and emptiness. His life took an
+              abrupt turn when he encountered the manifest tangible presence of
+              God walking into a prayer house. Since that moment, living for
+              anything other than Jesus would be a lie, he often says..now he
+              serves in the contexts of the local Church, the international
+              Church, Bible colleges conferences, missions and the market place
+              with one passion to glorify the name of Jesus.
             </p>
           </div>
         </div>
